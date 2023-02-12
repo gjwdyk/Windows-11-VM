@@ -30,14 +30,34 @@ The `.iso` file used for this repository is the one stated on the table below:
 Once you have the Windows 11 `.iso` file, start to create the New Virtual Machine :
 
 ![VMware File NewVirtualMachine](01VMwareFileNewVirtualMachine.png)
+
+VMware Workstation 15 does not recognize Windows 11, so we have to use Custom (advanced) process.
+
 ![VMware NewVirtualMachine Custom](02VMwareNewVirtualMachineCustom.png)
 ![VMware NewVirtualMachine HardwareCompatibility](03VMwareNewVirtualMachineHardwareCompatibility.png)
 ![VMware NewVirtualMachine InstallerDiscImageFile](04VMwareNewVirtualMachineInstallerDiscImageFile.png)
+
+Use Windows 10 as "template".
+
 ![VMware NewVirtualMachine GuestOperatingSystem](05VMwareNewVirtualMachineGuestOperatingSystem.png)
 ![VMware NewVirtualMachine VirtualMachineName](06VMwareNewVirtualMachineName.png)
+
+You can try to use `UEFI` and `Secure Boot` as required by Windows 11, but in my case they do not work.
+I keep end up in EUFI's Boot Manager menu and can not have the system to boot into the Windows 11 `.iso` .
+The procedure described in this repository will make Windows 11 installation bypass the `UEFI` and `Secure Boot` check.
+
 ![VMware NewVirtualMachine FirmwareType](07VMwareNewVirtualMachineFirmwareType.png)
+
+Specify the CPU and Memory to be allocated for the new Windows 11 Guest OS.
+The procedure described in this repository will make Windows 11 installation bypass checking the amount of Memory and number of CPU cores and speed.
+
 ![VMware NewVirtualMachine ProcessorConfiguration](08VMwareNewVirtualMachineProcessorConfiguration.png)
 ![VMware NewVirtualMachine Memory](09VMwareNewVirtualMachineMemory.png)
+
+Detaching the new Windows 11 Guest OS from Internet is optional.
+However I prefer to detach the new Windows 11 Guest OS while I am installing/configuring/removing the bloatware which Microsoft has put into the newly installed Windows 11 OS.
+We can always re-attach the new Windows 11 Guest OS to the network/Internet later.
+
 ![VMware NewVirtualMachine NetworkType](10VMwareNewVirtualMachineNetworkType.png)
 ![VMware NewVirtualMachine IOControllerType](11VMwareNewVirtualMachineIOControllerType.png)
 ![VMware NewVirtualMachine DiskType](12VMwareNewVirtualMachineDiskType.png)
