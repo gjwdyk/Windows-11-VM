@@ -20,9 +20,31 @@ The `.iso` file used for this repository is the one stated on the table below:
 
 
 
+
+![VMware File NewVirtualMachine](01VMwareFileNewVirtualMachine.png)
+![VMware NewVirtualMachine Custom](02VMwareNewVirtualMachineCustom.png)
+![VMware NewVirtualMachine HardwareCompatibility](03VMwareNewVirtualMachineHardwareCompatibility.png)
+![VMware NewVirtualMachine InstallerDiscImageFile](04VMwareNewVirtualMachineInstallerDiscImageFile.png)
+![VMware NewVirtualMachine GuestOperatingSystem](05VMwareNewVirtualMachineGuestOperatingSystem.png)
+![VMware NewVirtualMachine VirtualMachineName](06VMwareNewVirtualMachineName.png)
+![VMware NewVirtualMachine FirmwareType](07VMwareNewVirtualMachineFirmwareType.png)
+![VMware NewVirtualMachine ProcessorConfiguration](08VMwareNewVirtualMachineProcessorConfiguration.png)
+![VMware NewVirtualMachine Memory](09VMwareNewVirtualMachineMemory.png)
+![VMware NewVirtualMachine NetworkType](10VMwareNewVirtualMachineNetworkType.png)
+![VMware NewVirtualMachine IOControllerType](11VMwareNewVirtualMachineIOControllerType.png)
+![VMware NewVirtualMachine DiskType](12VMwareNewVirtualMachineDiskType.png)
+![VMware NewVirtualMachine SelectDisk](13VMwareNewVirtualMachineSelectDisk.png)
+![VMware NewVirtualMachine DiskCapacity](14VMwareNewVirtualMachineDiskCapacity.png)
+![VMware NewVirtualMachine DiskFile](15VMwareNewVirtualMachineDiskFile.png)
+![VMware NewVirtualMachine CustomizeHardware](16VMwareNewVirtualMachineCustomizeHardware.png)
+
+
+
 [Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
 
-- [ ] While installing Windows 11, if your computer does not meet the hardware requirements, you will see a message stating, "This PC can't run Windows 11." Windows 11 setup blocked due to missing hardware requirements.
+During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
+
+
 - [ ] When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt. At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
 - [ ] When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
 - [ ] When prompted to name the key, Type `LabConfig` and press `enter`.
