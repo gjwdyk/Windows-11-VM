@@ -72,25 +72,38 @@ Once you reach the step depicted on the screen capture above, click `Finish` and
 
 Before you spin up the newly created (empty) Guest (i.e. before you start the installation process), you may want to review and change the virtual hardware configuration.
 If you follow exactly the guide above to the letters, the name of the newly created Guest will be "Windows 11 Professional 64 Bits".
-On the newly created Guest "Windows 11 Professional 64 Bits", click on the `Edit virtual machine settings`.
+On the newly created "Windows 11 Professional 64 Bits" Guest, click on the `Edit virtual machine settings`.
 
 ![Edit Virtual Machine Settings](EditVirtualMachineSettings.png)
 
+If you do not have virtual printer configured, you can remove this virtual device from the "Windows 11 Professional 64 Bits" Guest.
+Select the "Printer" and then click `Remove` button below.
+
 ![VirtualMachineSettings HardwarePrinter Remove](VirtualMachineSettingsHardwarePrinterRemove.png)
+
+Alternatively you can also `Add...` virtual device(s) into the "Windows 11 Professional 64 Bits" Guest.
+Example: to re-attach the "Windows 11 Professional 64 Bits" Guest to the network/Internet, you click `Add...` select `Network Adapter` and click `Finish`.
+But for now, we do not need any Network Adapter on the "Windows 11 Professional 64 Bits" Guest.
+
+One note: one of the Windows 11 Requirements is TPM (version 2.0).
+If you want to add TPM to the Guest, but somehow can not add TPM from the GUI, like in my case (the `Finish` button is grey-ed), then you need to add TPM from the `.vmx` file.
+Edit the `.vmx` file for the newly created "Windows 11 Professional 64 Bits" Guest, and add `managedVM.autoAddVTPM = "software"`.
+In any case, the procedure described in this repository will make Windows 11 installation bypass checking the presence of TPM.
+So we do not need to add TPM to "Windows 11 Professional 64 Bits" Guest for now.
 
 ![AddHardwareType TrustedPlatformModule](AddHardwareTypeTrustedPlatformModule.png)
 
+On "Options" tab, and "Advanced" menu, you can change the Firmware Type (i.e. change to `UEFI` and `Secure Boot`), as well as having the Guest to be "Cleaned-Up" after each Guest OS shutdown.
+
 ![VirtualMachineSettings OptionsAdvanced](VirtualMachineSettingsOptionsAdvanced.png)
 
+<br><br><br>
 
 
 
 
 
 
-
-
-Before starting the installation process. Edit the `.vmx` file for the newly created VM and add `managedVM.autoAddVTPM = "software"`.
 
 
 
