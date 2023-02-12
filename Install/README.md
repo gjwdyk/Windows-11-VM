@@ -1,7 +1,10 @@
 # Install Windows 11 as Guest OS on VMware Workstation
 
-Purpose of this repository is to provide one way (of the many available in the Internet) to install Windows 11 as Guest OS on VMware Workstation, where either or both of the host machine's resources and/or the VMware version do ***NOT support Windows 11 Requirements***.
-There are many guides which use script and/or binary tool which you need to download and execute.
+Purpose of this repository is to provide one way (of the many available in the Internet) to install Windows 11 as Guest OS on VMware Workstation, where either or both of the host machine's resources and/or the VMware version do ***NOT support [Windows 11 System Requirements](https://www.microsoft.com/en-in/windows/windows-11-specifications)***.
+
+![Windows 11 System Requirements](Windows11SystemRequirements.png)
+
+There are many guides which use script and/or binary tool which you need to download and execute, in order to install Windows 11 Guest OS without fulfilling the requirements.
 However, from security perspective this MAY NOT be a good option since you MAY NOT trust those scripts and/or binary tools.
 This repository provides a step by step procedure without needing external script or external binary tool.
 All you need is the original installation `.iso` file from Microsoft.
@@ -40,7 +43,16 @@ The `.iso` file used for this repository is the one stated on the table below:
 
 
 
-[Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
+
+
+
+Before starting the installation process. Edit the `.vmx` file for the newly created VM and add `managedVM.autoAddVTPM = "software"`.
+
+
+
+
+
+
 
 During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
 
@@ -76,6 +88,7 @@ During installation of Windows 11, you'll see a message "This PC can't run Windo
 
 
 
-
+References:
+- [ ] [Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
 
 
