@@ -70,14 +70,14 @@ Once you reach the step depicted on the screen capture above, click `Finish` and
 
 <br><br><br>
 
-Before you spin up the newly created (empty) Guest (i.e. before you start the installation process), you may want to review and change the virtual hardware configuration.
+Before you spin up the newly created (empty) Guest (i.e. before you start the Windows 11 OS installation process), you may want to review and change the virtual hardware configuration.
 If you follow exactly the guide above to the letters, the name of the newly created Guest will be "Windows 11 Professional 64 Bits".
 On the newly created "Windows 11 Professional 64 Bits" Guest, click on the `Edit virtual machine settings`.
 
 ![Edit Virtual Machine Settings](EditVirtualMachineSettings.png)
 
 If you do not have virtual printer configured, you can remove this virtual device from the "Windows 11 Professional 64 Bits" Guest.
-Select the "Printer" and then click `Remove` button below.
+Select the "Printer", click `Remove` button below, and then click `OK`.
 
 ![VirtualMachineSettings HardwarePrinter Remove](VirtualMachineSettingsHardwarePrinterRemove.png)
 
@@ -88,6 +88,7 @@ But for now, we do not need any Network Adapter on the "Windows 11 Professional 
 One note: one of the Windows 11 Requirements is TPM (version 2.0).
 If you want to add TPM to the Guest, but somehow can not add TPM from the GUI, like in my case (the `Finish` button is grey-ed), then you need to add TPM from the `.vmx` file.
 Edit the `.vmx` file for the newly created "Windows 11 Professional 64 Bits" Guest, and add `managedVM.autoAddVTPM = "software"`.
+After editing the `.vmx` file, you need to restart VMware Workstation.
 In any case, the procedure described in this repository will make Windows 11 installation bypass checking the presence of TPM.
 So we do not need to add TPM to "Windows 11 Professional 64 Bits" Guest for now.
 
@@ -99,9 +100,9 @@ On "Options" tab, and "Advanced" menu, you can change the Firmware Type (i.e. ch
 
 <br><br><br>
 
+After you're done reviewing and/or changing the virtual hardware configuration, click `Power on this virtual machine` to turn-on "Windows 11 Professional 64 Bits" Guest.
 
-
-
+![Power On This Virtual Machine](PowerOnThisVirtualMachine.png)
 
 
 
