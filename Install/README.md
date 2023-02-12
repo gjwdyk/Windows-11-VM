@@ -31,7 +31,7 @@ Once you have the Windows 11 `.iso` file, start to create the New Virtual Machin
 
 ![VMware File NewVirtualMachine](01VMwareFileNewVirtualMachine.png)
 
-VMware Workstation 15 does not recognize Windows 11, so we have to use Custom (advanced) process.
+VMware Workstation 15 does not recognize Windows 11, so we have to use "Custom (advanced)" process.
 
 ![VMware NewVirtualMachine Custom](02VMwareNewVirtualMachineCustom.png)
 ![VMware NewVirtualMachine HardwareCompatibility](03VMwareNewVirtualMachineHardwareCompatibility.png)
@@ -66,7 +66,22 @@ We can always re-attach the new Windows 11 Guest OS to the network/Internet late
 ![VMware NewVirtualMachine DiskFile](15VMwareNewVirtualMachineDiskFile.png)
 ![VMware NewVirtualMachine CustomizeHardware](16VMwareNewVirtualMachineCustomizeHardware.png)
 
+Once you reach the step depicted on the screen capture above, click `Finish` and the Guest will be created.
+
 <br><br><br>
+
+Before you spin up the newly created Guest (i.e. before you start the installation process), you may want to review and change the virtual hardware configuration :
+
+![Edit Virtual Machine Settings](EditVirtualMachineSettings.png)
+
+
+
+
+
+
+
+
+
 
 
 
