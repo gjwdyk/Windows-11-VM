@@ -9,17 +9,23 @@ However, from security perspective this MAY NOT be a good option since you MAY N
 This repository provides a step by step procedure without needing external script or external binary tool.
 All you need is the original installation `.iso` file from Microsoft.
 
+<br><br><br>
+
 The procedure on this repository were tested with the following components:
 - [ ] Host: Windows 10 Home (version 22H2)
 - [ ] Virtualization Technology: VMware Workstation Pro (version 15.5.7)
 - [ ] Guest OS: Windows 11 Pro (version 22H2)
 Note that both Microsoft and VMware keep updating their software, so when the versions you use differ, understandably you may stumble on error(s) not stated in this repository.
 
+<br><br><br>
+
 Download the Windows 11 `.iso` file from Microsoft's [Download Windows 11](https://www.microsoft.com/software-download/windows11) page.
 The `.iso` file used for this repository is the one stated on the table below:
 | Language | SHA256 hash values for the `.iso` files |
 | --- | --- |
 | English International 64-bit | F115CD6B31734BC091BC94B964D5AD43984285BF229503481E2F7EF94AB7140E |
+
+<br><br><br>
 
 Once you have the Windows 11 `.iso` file, start to create the New Virtual Machine :
 
@@ -40,7 +46,7 @@ Once you have the Windows 11 `.iso` file, start to create the New Virtual Machin
 ![VMware NewVirtualMachine DiskFile](15VMwareNewVirtualMachineDiskFile.png)
 ![VMware NewVirtualMachine CustomizeHardware](16VMwareNewVirtualMachineCustomizeHardware.png)
 
-
+<br><br><br>
 
 
 
@@ -89,5 +95,21 @@ During installation of Windows 11, you'll see a message "This PC can't run Windo
 
 References:
 - [ ] [Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
+
+
+
+<br><br><br>
+
+***
+
+<br><br><br>
+```
+╔═╦═════════════════╦═╗
+╠═╬═════════════════╬═╣
+║ ║ End of Document ║ ║
+╠═╬═════════════════╬═╣
+╚═╩═════════════════╩═╝
+```
+<br><br><br>
 
 
