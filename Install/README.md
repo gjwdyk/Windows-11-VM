@@ -94,7 +94,7 @@ So we do not need to add TPM to "Windows 11 Professional 64 Bits" Guest for now.
 
 ![AddHardwareType TrustedPlatformModule](AddHardwareTypeTrustedPlatformModule.png)
 
-On "Options" tab, and "Advanced" menu, you can change the Firmware Type (i.e. change to `UEFI` and `Secure Boot`), as well as having the Guest to be "Cleaned-Up" after each Guest OS shutdown.
+On "Options" tab, and "Advanced" menu, you can change the Firmware Type (i.e. change to `UEFI` and `Secure Boot`) later on when needed, as well as having the Guest to be "Cleaned-Up" after each Guest OS shutdown.
 
 ![VirtualMachineSettings OptionsAdvanced](VirtualMachineSettingsOptionsAdvanced.png)
 
