@@ -1,26 +1,23 @@
-# Windows_11_VM
+# Install Windows 11 as Guest OS on VMware Workstation
 
+Purpose of this repository is to provide one way (of the many available in the Internet) to install Windows 11 as Guest OS on VMware Workstation, where either the host machine or the VMware version does NOT support Windows 11 Guest OS.
+There are many guides which use script and/or tool which you need to download and execute.
+However, from security perspective this MAY not be a good option since you MAY not trust those scripts and/or binary tools.
+This repository provides a step by step procedure without needing external script or external binary tool.
+All you need is the original installation `.iso` file from Microsoft.
 
+The procedure on this repository were tested with the following components:
+- [ ] Host: Windows 10 Home (version 22H2)
+- [ ] Virtualization Technology: VMware Workstation Pro (version 15.5.7)
+- [ ] Guest OS: Windows 11 Pro (version 22H2)
+Note that both Microsoft and VMware keep updating their software, so when the versions you use differ, understandably you may stumble error(s) not stated in this repository.
 
+Download the Windows 11 `.iso` file from Microsoft's [Download Windows 11](https://www.microsoft.com/software-download/windows11) page.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-[Download Windows 11](https://www.microsoft.com/software-download/windows11)
-
-| Language | Hash values for the ISO files |
+The `.iso` file used for this repository is the one stated on the table below:
+| Language | SHA256 hash values for the `.iso` files |
 | --- | --- |
-|English International 64-bit | F115CD6B31734BC091BC94B964D5AD43984285BF229503481E2F7EF94AB7140E |
+| English International 64-bit | F115CD6B31734BC091BC94B964D5AD43984285BF229503481E2F7EF94AB7140E |
 
 
 
