@@ -4,7 +4,7 @@ Purpose of this repository is to provide one way (of the many available in the I
 
 ![Windows 11 System Requirements](Windows11SystemRequirements.png)
 
-There are many guides which use script and/or binary tool which you need to download and execute, in order to install Windows 11 Guest OS without fulfilling the requirements.
+There are many guides which use script and/or binary tool which you need to download and execute, in order to install Windows 11 Guest OS ***without*** fulfilling the requirements.
 However, from security perspective this MAY NOT be a good option since you MAY NOT trust those scripts and/or binary tools.
 This repository provides a step by step procedure without needing external script or external binary tool.
 All you need is the original installation `.iso` file from Microsoft.
@@ -21,8 +21,7 @@ The `.iso` file used for this repository is the one stated on the table below:
 | --- | --- |
 | English International 64-bit | F115CD6B31734BC091BC94B964D5AD43984285BF229503481E2F7EF94AB7140E |
 
-
-
+Once you have the Windows 11 `.iso` file, start to create the New Virtual Machine :
 
 ![VMware File NewVirtualMachine](01VMwareFileNewVirtualMachine.png)
 ![VMware NewVirtualMachine Custom](02VMwareNewVirtualMachineCustom.png)
