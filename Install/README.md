@@ -66,17 +66,21 @@ We can always re-attach the new Windows 11 Guest OS to the network/Internet late
 ![VMware NewVirtualMachine DiskFile](15VMwareNewVirtualMachineDiskFile.png)
 ![VMware NewVirtualMachine CustomizeHardware](16VMwareNewVirtualMachineCustomizeHardware.png)
 
-Once you reach the step depicted on the screen capture above, click `Finish` and the Guest will be created.
+Once you reach the step depicted on the screen capture above, click `Finish` and the (still empty) Guest will be created.
 
 <br><br><br>
 
-Before you spin up the newly created Guest (i.e. before you start the installation process), you may want to review and change the virtual hardware configuration :
+Before you spin up the newly created (empty) Guest (i.e. before you start the installation process), you may want to review and change the virtual hardware configuration.
+If you follow exactly the guide above to the letters, the name of the newly created Guest will be "Windows 11 Professional 64 Bits".
+On the newly created Guest "Windows 11 Professional 64 Bits", click on the `Edit virtual machine settings`.
 
 ![Edit Virtual Machine Settings](EditVirtualMachineSettings.png)
 
+![VirtualMachineSettings HardwarePrinter Remove](VirtualMachineSettingsHardwarePrinterRemove.png)
 
+![AddHardwareType TrustedPlatformModule](AddHardwareTypeTrustedPlatformModule.png)
 
-
+![VirtualMachineSettings OptionsAdvanced](VirtualMachineSettingsOptionsAdvanced.png)
 
 
 
