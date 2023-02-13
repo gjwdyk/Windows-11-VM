@@ -101,6 +101,56 @@ After you're done reviewing and/or changing the virtual hardware configuration, 
 
 
 
+![31Windows11Language.png](31Windows11Language.png)
+![32Windows11InstallNow.png](32Windows11InstallNow.png)
+![33Windows11ActivateWindows.png](33Windows11ActivateWindows.png)
+![34Windows11OperatingSystem.png](34Windows11OperatingSystem.png)
+![35Windows11CanNotRun.png](35Windows11CanNotRun.png)
+![36Windows11RegEdit.png](36Windows11RegEdit.png)
+![37Windows11RegistryEditor.png](37Windows11RegistryEditor.png)
+![38Windows11RegEditExit.png](38Windows11RegEditExit.png)
+![39Windows11LicenceTerms.png](39Windows11LicenceTerms.png)
+![40Windows11InstallationType.png](40Windows11InstallationType.png)
+![41Windows11InstallWhere.png](41Windows11InstallWhere.png)
+![42Windows11InstallingWindows.png](42Windows11InstallingWindows.png)
+![43Windows11ReStart.png](43Windows11ReStart.png)
+![44Windows11Country.png](44Windows11Country.png)
+![45Windows11KeyBoard.png](45Windows11KeyBoard.png)
+![46Windows11KeyBoardSecond.png](46Windows11KeyBoardSecond.png)
+![47Windows11LetsConnect.png](47Windows11LetsConnect.png)
+![48Windows11BypassNRO.png](48Windows11BypassNRO.png)
+![X1Windows11UtilMan.png](X1Windows11UtilMan.png)
+![X2Windows11SystemDisplay.png](X2Windows11SystemDisplay.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
 
