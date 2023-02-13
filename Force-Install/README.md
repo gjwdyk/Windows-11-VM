@@ -115,21 +115,33 @@ You'll see a message "This PC can't run Windows 11" and the installation is bloc
 
 ![Windows11 CanNotRun](35Windows11CanNotRun.png)
 
-When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt.
-At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
+When you see the above message, press `shift`+`F10` (or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt.
+At the command prompt, type `regedit` and press `enter` to launch the Registry Editor.
 
 ![Windows11 RegEdit](36Windows11RegEdit.png)
 
-When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
-When prompted to name the key, Type `LabConfig` and press `enter`.
+When the Registry Editor opens, navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, right-click on the `Setup` key and select `New` > `Key`.
+When prompted to name the key, type `LabConfig` and press `enter`.
 - [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassTPMCheck`, and set its data to `1`.
 - [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassSecureBootCheck`, and set its data to `1`.
 - [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassRAMCheck`, and set its data to `1`.
 - [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassStorageCheck`, and set its data to `1`.
 - [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassCPUCheck`, and set its data to `1`.
 
+Refer to below screen capture as final result of editing the registry.
+
 ![Windows11 RegistryEditor](37Windows11RegistryEditor.png)
+
+Close/exit the Registry Editor.
+To close/exit the command prompt, type `exit` and press `enter`.
+
 ![Windows11 RegEditExit](38Windows11RegEditExit.png)
+
+At the window which displays message "This PC can't run Windows 11", click the `<-` (back arrow) on the top left of the window.
+You will be back to "Select the operating system you want to install" window.
+Click `Next` button on the bottom right of the window.
+You will advance to the following window.
+
 ![Windows11 LicenceTerms](39Windows11LicenceTerms.png)
 ![Windows11 InstallationType](40Windows11InstallationType.png)
 ![Windows11 InstallWhere](41Windows11InstallWhere.png)
