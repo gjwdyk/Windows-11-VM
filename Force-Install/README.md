@@ -110,26 +110,24 @@ Input your Windows 11 License/Product Key, or click the "I don't have a product 
 Select the Windows 11 OS type, in sync with the License/Product Key that you have above.
 
 ![Windows11 OperatingSystem](34Windows11OperatingSystem.png)
+
+You'll see a message "This PC can't run Windows 11" and the installation is blocked due to lack of resources or missing hardware requirements.
+
 ![Windows11 CanNotRun](35Windows11CanNotRun.png)
 
-
-During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
-
-
-- [ ] When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt. At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
-- [ ] When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
-- [ ] When prompted to name the key, Type `LabConfig` and press `enter`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassTPMCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassSecureBootCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassRAMCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassStorageCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassCPUCheck`, and set its data to `1`.
-
-
-
-
+When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt.
+At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
 
 ![Windows11 RegEdit](36Windows11RegEdit.png)
+
+When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
+When prompted to name the key, Type `LabConfig` and press `enter`.
+- [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassTPMCheck`, and set its data to `1`.
+- [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassSecureBootCheck`, and set its data to `1`.
+- [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassRAMCheck`, and set its data to `1`.
+- [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassStorageCheck`, and set its data to `1`.
+- [ ] Right-click on the `LabConfig` key, select `New` > `DWORD (32-bit)`, create a value named `BypassCPUCheck`, and set its data to `1`.
+
 ![Windows11 RegistryEditor](37Windows11RegistryEditor.png)
 ![Windows11 RegEditExit](38Windows11RegEditExit.png)
 ![Windows11 LicenceTerms](39Windows11LicenceTerms.png)
