@@ -75,12 +75,16 @@ On the newly created "Windows 11 Professional 64 Bits" Guest, click on the `Edit
 
 ![VMware Edit Virtual Machine Settings](17VMwareEditVirtualMachineSettings.png)
 
-If you do not have virtual printer configured, you can remove this virtual device from the "Windows 11 Professional 64 Bits" Guest.
+If you do not have virtual "Printer" configured, you can remove this virtual device from the "Windows 11 Professional 64 Bits" Guest.
 Select the "Printer", click `Remove` button below, and then click `OK`.
+
+Whether you have or not have the virtual "Printer" configured, this step is optional.
+Removing the virtual "Printer" will prevent VMware from poping up messages regarding the virtual "Printer".
 
 ![VMware VirtualMachineSettings HardwarePrinter Remove](18VMwareVirtualMachineSettingsHardwarePrinterRemove.png)
 
 On "Options" tab and "Advanced" menu, you can have VMware to "Clean up disks after shutting down this virtual machine".
+This is a nice feature to utilize, to auto-maintenance the Guest's disks after each shutdown, so the disks won't get bloated in size and waste storage spaces.
 
 ![VMware VirtualMachineSettings OptionsAdvanced](19VMwareVirtualMachineSettingsOptionsAdvanced.png)
 
