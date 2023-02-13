@@ -155,7 +155,7 @@ After a while, the installer will continue with the following screen.
 ![Windows11 KeyBoard](45Windows11KeyBoard.png)
 ![Windows11 KeyBoardSecond](46Windows11KeyBoardSecond.png)
 
-At this stage, installation is block because the VM instance does NOT have Internet connection.
+At this stage, installation is blocked because the VM instance does NOT have Internet connection.
 
 ![Windows11 LetsConnect](47Windows11LetsConnect.png)
 
@@ -185,8 +185,8 @@ This time around on the "Let's connect you to a network" screen/window you'll ha
 
 ![Windows11 DoNotHaveInternet](49Windows11DoNotHaveInternet.png)
 
-
-
+Choose/click the "Continue with limited setup".
+The rest of screens/windows are usual account creation configurations/queries.
 
 ![Windows11 LimitedSetup](50Windows11LimitedSetup.png)
 ![Windows11 Name](51Windows11Name.png)
@@ -195,54 +195,22 @@ This time around on the "Let's connect you to a network" screen/window you'll ha
 ![Windows11 SecurityQuestion1of3](54Windows11SecurityQuestion1of3.png)
 ![Windows11 SecurityQuestion2of3](55Windows11SecurityQuestion2of3.png)
 ![Windows11 SecurityQuestion3of3](56Windows11SecurityQuestion3of3.png)
+
+Disable/turn-off (No) to ALL items on this screen/window.
+
 ![Windows11 Privacy](57Windows11Privacy.png)
+
+Et voilà, now you have the Windows 11 Guest OS, without fulfilling the Windows 11 Requirements.
+
 ![Windows11 Desktop](58Windows11Desktop.png)
 
 
 
+<br><br><br>
 
+***
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br><br>
 
 References:
 - [ ] [Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
