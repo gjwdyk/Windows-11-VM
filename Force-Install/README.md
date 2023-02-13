@@ -43,7 +43,7 @@ Use Windows 10 as "template".
 ![VMware NewVirtualMachine GuestOperatingSystem](05VMwareNewVirtualMachineGuestOperatingSystem.png)
 ![VMware NewVirtualMachine VirtualMachineName](06VMwareNewVirtualMachineName.png)
 
-Since we are not going to comply with the Windows 11 Requirements; we'll use the practical firmware type BIOS.
+Since we are not going to comply with the Windows 11 Requirements; we'll use the ***practical*** firmware type BIOS.
 
 ![VMware NewVirtualMachine FirmwareType](07VMwareNewVirtualMachineFirmwareType.png)
 
