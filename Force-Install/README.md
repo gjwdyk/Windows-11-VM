@@ -73,22 +73,22 @@ Before you spin up the newly created (empty) Guest (i.e. before you start the Wi
 If you follow exactly the guide above to the letters, the name of the newly created Guest will be "Windows 11 Professional 64 Bits".
 On the newly created "Windows 11 Professional 64 Bits" Guest, click on the `Edit virtual machine settings`.
 
-![Edit Virtual Machine Settings](EditVirtualMachineSettings.png)
+![VMware Edit Virtual Machine Settings](17VMwareEditVirtualMachineSettings.png)
 
 If you do not have virtual printer configured, you can remove this virtual device from the "Windows 11 Professional 64 Bits" Guest.
 Select the "Printer", click `Remove` button below, and then click `OK`.
 
-![VirtualMachineSettings HardwarePrinter Remove](VirtualMachineSettingsHardwarePrinterRemove.png)
+![VMware VirtualMachineSettings HardwarePrinter Remove](18VMwareVirtualMachineSettingsHardwarePrinterRemove.png)
 
 On "Options" tab and "Advanced" menu, you can have VMware to "Clean up disks after shutting down this virtual machine".
 
-![VirtualMachineSettings OptionsAdvanced](VirtualMachineSettingsOptionsAdvanced.png)
+![VMware VirtualMachineSettings OptionsAdvanced](19VMwareVirtualMachineSettingsOptionsAdvanced.png)
 
 <br><br><br>
 
 After you're done reviewing and/or changing the virtual hardware configuration, click `Power on this virtual machine` to turn-on "Windows 11 Professional 64 Bits" Guest.
 
-![Power On This Virtual Machine](PowerOnThisVirtualMachine.png)
+![VMware Power On This Virtual Machine](20VMwarePowerOnThisVirtualMachine.png)
 
 
 
