@@ -21,7 +21,7 @@ Note that both Microsoft and VMware keep updating their software, so when the ve
 <br><br><br>
 
 Download the Windows 11 `.iso` file from Microsoft's [Download Windows 11](https://www.microsoft.com/software-download/windows11) page.
-The `.iso` file used for this repository is the one stated on the table below:
+The `.iso` file used for tests on this repository is the one stated on the table below:
 | Language | SHA256 hash values for the `.iso` files |
 | --- | --- |
 | English International 64-bit | F115CD6B31734BC091BC94B964D5AD43984285BF229503481E2F7EF94AB7140E |
