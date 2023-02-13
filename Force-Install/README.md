@@ -167,7 +167,7 @@ At this point, you have option for example to change the screen size, by typing 
 
 ![Windows11 UtilMan](X1Windows11UtilMan.png)
 
-If you do want to try the option to change the screen size, on the launched "System's Settings" click/select `System` at the left column menu, then click/select `Display` and then choose the `Display resolution`.
+If you do want to try the option to change the screen size, on the launched "System's Settings" click/select `System` at the left column menu, then click/select `Display` on the right side, and then choose the `Display resolution`.
 The `utilman` or "System's Settings" is optional at this point.
 
 ![Windows11 SystemDisplay](X2Windows11SystemDisplay.png)
