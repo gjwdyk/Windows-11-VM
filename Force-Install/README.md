@@ -147,24 +147,47 @@ You will advance to the following window.
 ![Windows11 InstallWhere](41Windows11InstallWhere.png)
 ![Windows11 InstallingWindows](42Windows11InstallingWindows.png)
 ![Windows11 ReStart](43Windows11ReStart.png)
+
+The installer will reboot/restart the VM instance.
+After a while, the installer will continue with the following screen.
+
 ![Windows11 Country](44Windows11Country.png)
 ![Windows11 KeyBoard](45Windows11KeyBoard.png)
 ![Windows11 KeyBoardSecond](46Windows11KeyBoardSecond.png)
+
+At this stage, installation is block because the VM instance does NOT have Internet connection.
+
 ![Windows11 LetsConnect](47Windows11LetsConnect.png)
-![Windows11 BypassNRO](48Windows11BypassNRO.png)
 
-ReBoot !!!
+Press `shift`+`F10` (or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt.
 
-Blah Blah Blah
+
+
+At this point, you have option for example to change the screen size, by typing `utilman` at the command prompt, which will launch the System's Settings.
 
 ![Windows11 UtilMan](X1Windows11UtilMan.png)
+
+If you do want to try the option to change the screen size, on the launched "System's Settings" click/select `System` at the left column menu, then click/select `Display` and then choose the `Display resolution`.
+The `utilman` or "System's Settings" is optional at this point.
+
 ![Windows11 SystemDisplay](X2Windows11SystemDisplay.png)
 
 
 
+To be able to advance further without Internet connection, at the command prompt type `oobe\bypassnro`.
+Note that this command will reboot/restart the VM instance.
 
+![Windows11 BypassNRO](48Windows11BypassNRO.png)
+
+Once the reboot/restart is done, you will be back to the "Is this the right country or region?" screen/window.
+Just proceed to repeat those previous screens/windows.
+This time around on the "Let's connect you to a network" screen/window you'll have option to choose "I don't have internet".
 
 ![Windows11 DoNotHaveInternet](49Windows11DoNotHaveInternet.png)
+
+
+
+
 ![Windows11 LimitedSetup](50Windows11LimitedSetup.png)
 ![Windows11 Name](51Windows11Name.png)
 ![Windows11 Password](52Windows11Password.png)
@@ -213,11 +236,8 @@ Blah Blah Blah
 
 
 
-- [ ] Once you configure the above keys and their respective values under the `LabConfig` key, close the Registry Editor, and then type `exit` in the Command Prompt followed by `enter` to close the window. You will now be back at the message stating that the PC can't run Windows 11. Click on the back button in the Windows Setup dialog, as shown below. Press the back button in Windows setup.
-- [ ] You will now be back at the screen prompting you to select the version of Windows 11 you wish to install. You can now continue with the setup, and the hardware requirements will be bypassed, allowing you to install Windows 11.
 
 
-- [ ] Blah, blah . . . press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt. At the command prompt, type `oobe\bypassnro` and press `enter`. the guest os will reboot/restart
 
 
 
