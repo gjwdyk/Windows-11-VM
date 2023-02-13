@@ -43,13 +43,11 @@ Use Windows 10 as "template".
 ![VMware NewVirtualMachine GuestOperatingSystem](05VMwareNewVirtualMachineGuestOperatingSystem.png)
 ![VMware NewVirtualMachine VirtualMachineName](06VMwareNewVirtualMachineName.png)
 
-You can try to use `UEFI` and `Secure Boot` as required by Windows 11, but in my case they do not work.
-I keep end up in EUFI's Boot Manager menu and can not have the system to boot into the Windows 11 `.iso` .
-The procedure described in this repository will make Windows 11 installation bypass the `UEFI` and `Secure Boot` check.
+Since we are not going to comply with the Windows 11 Requirements; we'll use the practical firmware type BIOS.
 
 ![VMware NewVirtualMachine FirmwareType](07VMwareNewVirtualMachineFirmwareType.png)
 
-Specify the CPU and Memory to be allocated for the new Windows 11 Guest OS.
+Specify the CPU and Memory to be allocated for the new Windows 11 Guest OS, as needed or as available.
 The procedure described in this repository will make Windows 11 installation bypass checking the amount of Memory and number of CPU cores and speed.
 
 ![VMware NewVirtualMachine ProcessorConfiguration](08VMwareNewVirtualMachineProcessorConfiguration.png)
@@ -82,20 +80,7 @@ Select the "Printer", click `Remove` button below, and then click `OK`.
 
 ![VirtualMachineSettings HardwarePrinter Remove](VirtualMachineSettingsHardwarePrinterRemove.png)
 
-Alternatively you can also `Add...` virtual device(s) into the "Windows 11 Professional 64 Bits" Guest.
-Example: to re-attach the "Windows 11 Professional 64 Bits" Guest to the network/Internet, you click `Add...` select `Network Adapter` and click `Finish`.
-But for now, we do not need any Network Adapter on the "Windows 11 Professional 64 Bits" Guest.
-
-One note: one of the Windows 11 Requirements is TPM (version 2.0).
-If you want to add TPM to the Guest, but somehow can not add TPM from the GUI, like in my case (the `Finish` button is grey-ed), then you need to add TPM from the `.vmx` file.
-Edit the `.vmx` file for the newly created "Windows 11 Professional 64 Bits" Guest, and add `managedVM.autoAddVTPM = "software"`.
-After editing the `.vmx` file, you need to restart VMware Workstation.
-In any case, the procedure described in this repository will make Windows 11 installation bypass checking the presence of TPM.
-So we do not need to add TPM to "Windows 11 Professional 64 Bits" Guest for now.
-
-![AddHardwareType TrustedPlatformModule](AddHardwareTypeTrustedPlatformModule.png)
-
-On "Options" tab, and "Advanced" menu, you can change the Firmware Type (i.e. change to `UEFI` and `Secure Boot`) later on when needed, as well as having the Guest to be "Cleaned-Up" after each Guest OS shutdown.
+On "Options" tab and "Advanced" menu, you can have VMware to "Clean up disks after shutting down this virtual machine".
 
 ![VirtualMachineSettings OptionsAdvanced](VirtualMachineSettingsOptionsAdvanced.png)
 
