@@ -1,6 +1,6 @@
 # Install Windows 11 as Guest OS on VMware Workstation
 
-Purpose of this repository is to provide one way (of the many available in the Internet) to install Windows 11 as Guest OS on VMware Workstation, where either or both of the host machine's resources and/or the VMware version do ***NOT support [Windows 11 System Requirements](https://www.microsoft.com/en-in/windows/windows-11-specifications)***.
+Purpose of this repository is to provide one way (of the many available in the Internet) to install Windows 11 as Guest OS on VMware Workstation, where either or both of the host machine's resources and/or the VMware version do ***NOT support*** [Windows 11 System Requirements](https://www.microsoft.com/en-in/windows/windows-11-specifications).
 
 ![Windows 11 System Requirements](00Windows11SystemRequirements.png)
 
