@@ -119,6 +119,11 @@ After you're done reviewing and/or changing the virtual hardware configuration, 
 ![Windows11 KeyBoardSecond](46Windows11KeyBoardSecond.png)
 ![Windows11 LetsConnect](47Windows11LetsConnect.png)
 ![Windows11 BypassNRO](48Windows11BypassNRO.png)
+
+ReBoot !!!
+
+Blah Blah Blah
+
 ![Windows11 UtilMan](X1Windows11UtilMan.png)
 ![Windows11 SystemDisplay](X2Windows11SystemDisplay.png)
 
