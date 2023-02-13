@@ -131,6 +131,18 @@ Blah Blah Blah
 
 
 
+![Windows11 DoNotHaveInternet](49Windows11DoNotHaveInternet.png)
+![Windows11 LimitedSetup](50Windows11LimitedSetup.png)
+![Windows11 Name](51Windows11Name.png)
+![Windows11 Password](52Windows11Password.png)
+![Windows11 PasswordConfirm](53Windows11PasswordConfirm.png)
+![Windows11 SecurityQuestion1of3](54Windows11SecurityQuestion1of3.png)
+![Windows11 SecurityQuestion2of3](55Windows11SecurityQuestion2of3.png)
+![Windows11 SecurityQuestion3of3](56Windows11SecurityQuestion3of3.png)
+![Windows11 Privacy](57Windows11Privacy.png)
+![Windows11 Desktop](58Windows11Desktop.png)
+
+
 
 
 
