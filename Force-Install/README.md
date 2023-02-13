@@ -214,6 +214,8 @@ Et voilà, now you have the Windows 11 Guest OS, without fulfilling the Windows 
 
 References:
 - [ ] [Installing Windows 11 as a Guest OS on VMware Workstation](https://kb.vmware.com/s/article/86207)
+- [ ] [Force-Windows-11-Install](https://github.com/JosephM101/Force-Windows-11-Install)
+- [ ] [How to enable TPM and Secure Boot on VMware to install Windows 11](https://pureinfotech.com/enable-tpm-secure-boot-vmware-install-windows-11/)
 
 
 
