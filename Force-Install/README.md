@@ -94,18 +94,41 @@ After you're done reviewing and/or changing the virtual hardware configuration, 
 
 ![VMware Power On This Virtual Machine](20VMwarePowerOnThisVirtualMachine.png)
 
-
-
-
-
-
-
+On the VMware's console you see the Windows 11 installer starts.
+Select the proper options to install your instance of Vindows 11 VM.
 
 ![Windows11 Language](31Windows11Language.png)
+
+Click the "Install now" button.
+
 ![Windows11 InstallNow](32Windows11InstallNow.png)
+
+Input your Windows 11 License/Product Key, or click the "I don't have a product key".
+
 ![Windows11 ActivateWindows](33Windows11ActivateWindows.png)
+
+Select the Windows 11 OS type, in sync with the License/Product Key that you have above.
+
 ![Windows11 OperatingSystem](34Windows11OperatingSystem.png)
 ![Windows11 CanNotRun](35Windows11CanNotRun.png)
+
+
+During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
+
+
+- [ ] When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt. At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
+- [ ] When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
+- [ ] When prompted to name the key, Type `LabConfig` and press `enter`.
+- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassTPMCheck`, and set its data to `1`.
+- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassSecureBootCheck`, and set its data to `1`.
+- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassRAMCheck`, and set its data to `1`.
+- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassStorageCheck`, and set its data to `1`.
+- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassCPUCheck`, and set its data to `1`.
+
+
+
+
+
 ![Windows11 RegEdit](36Windows11RegEdit.png)
 ![Windows11 RegistryEditor](37Windows11RegistryEditor.png)
 ![Windows11 RegEditExit](38Windows11RegEditExit.png)
@@ -168,18 +191,6 @@ Blah Blah Blah
 
 
 
-
-During installation of Windows 11, you'll see a message "This PC can't run Windows 11." and the installation is blocked due to lack of resources or missing hardware requirements.
-
-
-- [ ] When you see the above message, press `shift`+`F10` (Or `shift`+`fn`+`F10`) on your keyboard at the same time to launch a command prompt. At the command prompt, type `regedit` and press `enter` to launch the Windows Registry Editor.
-- [ ] When the Registry Editor opens, navigate to: `HKEY_LOCAL_MACHINE\SYSTEM\Setup`, Right-click on the `Setup` key and select `New` > `Key`.
-- [ ] When prompted to name the key, Type `LabConfig` and press `enter`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassTPMCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassSecureBootCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassRAMCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassStorageCheck`, and set its data to `1`.
-- [ ] Now right-click on the `LabConfig` key and select `New` > `DWORD (32-bit)` value and create a value named `BypassCPUCheck`, and set its data to `1`.
 
 
 
