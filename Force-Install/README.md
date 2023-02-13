@@ -15,6 +15,7 @@ The procedure on this repository were tested with the following components:
 - [ ] Host: Windows 10 Home (version 22H2)
 - [ ] Virtualization Technology: VMware Workstation Pro (version 15.5.7)
 - [ ] Guest OS: Windows 11 Pro (version 22H2)
+
 Note that both Microsoft and VMware keep updating their software, so when the versions you use differ, understandably you may stumble on error(s) not stated in this repository.
 
 <br><br><br>
